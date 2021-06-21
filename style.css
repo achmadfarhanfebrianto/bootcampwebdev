@@ -1,0 +1,224 @@
+.pages{
+    width: 100%;
+    margin: 0px;
+    padding: 0px 10px ;
+}
+
+header{
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+header .title{
+    font-size: 30pt;
+    font-weight: 600;
+    color: white;
+}
+
+header .navbar{
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+}
+
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color:blue !important;
+}
+
+.banner{
+    background-image: url('../Imagebali.jpg');
+    width: auto;
+    height: 500px;
+    position: relative;
+    padding: 20px;
+    background-repeat: round;
+}
+
+.form{
+    margin-top: 50px;
+    margin-right: 100px;
+    float: right;
+    border: solid 2px white;
+    width: 40%;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+}
+
+.form p{
+    font-size: 16pt;
+    color: black;
+    font-weight: 600;   
+}
+
+.form .input-form{
+    margin: 10px 0px;
+}
+
+.about-us{
+    margin: 20px 0px;
+    padding: 20px;
+}
+.about-us .title{
+    font-size: 16pt;
+    color: goldenrod;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about-us .desc{
+    font-size: 14pt;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.about-us .read-more{
+    text-decoration: underline;
+    font-size: 10pt;
+    font-weight: 600;
+    color: black !important;
+}
+
+.about-us img{
+    width: 100%;
+    padding: 20px 10px;
+    height: 300px;
+    border-radius: 15px 50px;
+}
+
+.why-us{
+    margin: 20px 0px;
+    padding: 20x;
+}
+
+.why-us .header{
+    font-size: 25pt;
+    text-align: center;
+    font-weight: 600;
+}
+
+.why-us .title{
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+.why-us .desc{
+    font-size: 15pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+.why-us .col-md-6:hover{
+    padding: 25px;
+    color: white;
+    background-color: goldenrod;
+}
+.why-us .fa{
+    font-size: 30px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.testimony{
+    margin: 20px 0px;
+    padding: 20px;
+
+}
+.testimony .title{
+    font-size: 25pt;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.testimony .desc{
+    font-size: 18pt;
+    font-weight: 500;
+    text-align: center;
+}
+
+.testimony .cust{
+    font-size: 18pt;
+    font-weight: 500;
+    text-align: right;
+}
+
+.carousel img{
+    padding: 50px;
+    
+}
+
+.choose{
+    margin: 20px 0px;
+    padding: 20x;
+}
+
+.choose .header{
+    font-size: 20pt;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.choose .desc{
+    font-size: 10pt;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.choose .fa{
+    font-size: 25px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 500px;
+    width: 41px;
+    height: 41px;
+    line-height: 37px;
+}
+
+.choose .col-md-4:hover{
+    padding: 25px;
+    color: white;
+    background-color: goldenrod;
+}
+
+footer{
+    background-color: black;
+    color: white;
+
+}
+
+footer li{
+    list-style: none;
+}
+
+footer ul{
+    padding: 0px;
+}
+
+/* @media only screen and (max-width:600px) {
+        .pages{
+            background-color: grey;
+        }    
+} */
+
+@media screen and (max-width:700px) and (min-width: 0px){
+    .form{
+        width: 100% !important;
+        margin-top:  50px auto !important;
+    }    
+}
